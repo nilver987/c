@@ -1,5 +1,3 @@
-server:
-  port: 8082
 spring:
   application:
     name: ms-client-service
@@ -13,7 +11,12 @@ spring:
     password: ''
     driver-class-name: com.mysql.cj.jdbc.Driver
 
-
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+    path: /doc/swagger-ui.html
 eureka:
   client:
     serviceUrl:
