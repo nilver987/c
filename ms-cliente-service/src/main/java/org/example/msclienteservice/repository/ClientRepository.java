@@ -1,6 +1,6 @@
-package org.example.msclientservice.repository;
+package org.example.msclienteservice.repository;
 
-import org.example.msclientservice.entity.Client;
+import org.example.msclienteservice.entity.Client;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
