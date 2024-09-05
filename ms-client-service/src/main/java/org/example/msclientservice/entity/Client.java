@@ -1,4 +1,4 @@
-package org.example.msclienteservice.entity;
+package org.example.msclientservice.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
